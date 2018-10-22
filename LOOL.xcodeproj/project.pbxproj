@@ -12,9 +12,19 @@
 		DC14BAE92179A09800A4163D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC14BAE72179A09800A4163D /* Main.storyboard */; };
 		DC14BAEB2179A09800A4163D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC14BAEA2179A09800A4163D /* Assets.xcassets */; };
 		DC14BAEE2179A09800A4163D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC14BAEC2179A09800A4163D /* LaunchScreen.storyboard */; };
+		DC14BAF62179C3D500A4163D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14BAF52179C3D500A4163D /* Extentions.swift */; };
+		DC14BAFA2179CAB800A4163D /* SignUpSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14BAF92179CAB800A4163D /* SignUpSocialViewController.swift */; };
+		DC14BAFC2179CAC700A4163D /* SignUpEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14BAFB2179CAC700A4163D /* SignUpEmailViewController.swift */; };
+		DC14BAFE2179CC3900A4163D /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14BAFD2179CC3900A4163D /* ACFloatingTextfield.swift */; };
+		DC38BA3C217B983D00F1590E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38BA3B217B983D00F1590E /* HomeViewController.swift */; };
+		DC38BA3F217B98C800F1590E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38BA3E217B98C800F1590E /* HomeTableViewCell.swift */; };
+		DC38BA41217B994200F1590E /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38BA40217B994200F1590E /* HomeCollectionViewCell.swift */; };
+		FC435F4AB234B93D0D663049 /* Pods_LOOL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940317B0B6E8442CFCCE6A2B /* Pods_LOOL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498502E6D74D73D305F8B5F4 /* Pods-LOOL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOOL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOOL/Pods-LOOL.debug.xcconfig"; sourceTree = "<group>"; };
+		940317B0B6E8442CFCCE6A2B /* Pods_LOOL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOOL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC14BAE02179A09800A4163D /* LOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC14BAE32179A09800A4163D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC14BAE52179A09800A4163D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		DC14BAEA2179A09800A4163D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC14BAED2179A09800A4163D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC14BAEF2179A09800A4163D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC14BAF52179C3D500A4163D /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		DC14BAF92179CAB800A4163D /* SignUpSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSocialViewController.swift; sourceTree = "<group>"; };
+		DC14BAFB2179CAC700A4163D /* SignUpEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailViewController.swift; sourceTree = "<group>"; };
+		DC14BAFD2179CC3900A4163D /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		DC38BA3B217B983D00F1590E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC38BA3E217B98C800F1590E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		DC38BA40217B994200F1590E /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F0B3B6738A41638BD1678BBA /* Pods-LOOL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOOL.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOOL/Pods-LOOL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC435F4AB234B93D0D663049 /* Pods_LOOL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6406ADD2EBFBAFDAADB5EB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940317B0B6E8442CFCCE6A2B /* Pods_LOOL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC14BAD72179A09800A4163D = {
 			isa = PBXGroup;
 			children = (
 				DC14BAE22179A09800A4163D /* LOOL */,
 				DC14BAE12179A09800A4163D /* Products */,
+				EC5B2FF962138E68B2264184 /* Pods */,
+				D6406ADD2EBFBAFDAADB5EB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,70 @@
 		DC14BAE22179A09800A4163D /* LOOL */ = {
 			isa = PBXGroup;
 			children = (
-				DC14BAE32179A09800A4163D /* AppDelegate.swift */,
-				DC14BAE52179A09800A4163D /* ViewController.swift */,
+				DC38BA3A217B982A00F1590E /* Home */,
+				DC14BAF82179CA9F00A4163D /* Sign Up */,
+				DC14BAF72179CA9000A4163D /* Welcome */,
+				DC38BA42217B99E400F1590E /* AppDelegate */,
 				DC14BAE72179A09800A4163D /* Main.storyboard */,
 				DC14BAEA2179A09800A4163D /* Assets.xcassets */,
 				DC14BAEC2179A09800A4163D /* LaunchScreen.storyboard */,
 				DC14BAEF2179A09800A4163D /* Info.plist */,
+				DC14BAF52179C3D500A4163D /* Extentions.swift */,
 			);
 			path = LOOL;
+			sourceTree = "<group>";
+		};
+		DC14BAF72179CA9000A4163D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				DC14BAE52179A09800A4163D /* ViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		DC14BAF82179CA9F00A4163D /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				DC14BAFD2179CC3900A4163D /* ACFloatingTextfield.swift */,
+				DC14BAF92179CAB800A4163D /* SignUpSocialViewController.swift */,
+				DC14BAFB2179CAC700A4163D /* SignUpEmailViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		DC38BA3A217B982A00F1590E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC38BA3D217B98AC00F1590E /* Cell */,
+				DC38BA3B217B983D00F1590E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DC38BA3D217B98AC00F1590E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC38BA3E217B98C800F1590E /* HomeTableViewCell.swift */,
+				DC38BA40217B994200F1590E /* HomeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DC38BA42217B99E400F1590E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DC14BAE32179A09800A4163D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EC5B2FF962138E68B2264184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				498502E6D74D73D305F8B5F4 /* Pods-LOOL.debug.xcconfig */,
+				F0B3B6738A41638BD1678BBA /* Pods-LOOL.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC14BAF22179A09800A4163D /* Build configuration list for PBXNativeTarget "LOOL" */;
 			buildPhases = (
+				C78A03302D147E7EADDB1199 /* [CP] Check Pods Manifest.lock */,
 				DC14BADC2179A09800A4163D /* Sources */,
 				DC14BADD2179A09800A4163D /* Frameworks */,
 				DC14BADE2179A09800A4163D /* Resources */,
+				358A229045906A5F3977D122 /* [CP] Embed Pods Frameworks */,
+				D11E4A4E4C0CB48D1DFA70AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +219,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		358A229045906A5F3977D122 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LOOL/Pods-LOOL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOOL/Pods-LOOL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C78A03302D147E7EADDB1199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOOL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11E4A4E4C0CB48D1DFA70AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LOOL/Pods-LOOL-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOOL/Pods-LOOL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC14BADC2179A09800A4163D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DC14BAE62179A09800A4163D /* ViewController.swift in Sources */,
+				DC14BAFE2179CC3900A4163D /* ACFloatingTextfield.swift in Sources */,
+				DC14BAFC2179CAC700A4163D /* SignUpEmailViewController.swift in Sources */,
 				DC14BAE42179A09800A4163D /* AppDelegate.swift in Sources */,
+				DC14BAFA2179CAB800A4163D /* SignUpSocialViewController.swift in Sources */,
+				DC38BA41217B994200F1590E /* HomeCollectionViewCell.swift in Sources */,
+				DC38BA3C217B983D00F1590E /* HomeViewController.swift in Sources */,
+				DC38BA3F217B98C800F1590E /* HomeTableViewCell.swift in Sources */,
+				DC14BAF62179C3D500A4163D /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +438,14 @@
 		};
 		DC14BAF32179A09800A4163D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498502E6D74D73D305F8B5F4 /* Pods-LOOL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PEH7JX5YY9;
 				INFOPLIST_FILE = LOOL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Window.LOOL;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loot.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +454,14 @@
 		};
 		DC14BAF42179A09800A4163D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B3B6738A41638BD1678BBA /* Pods-LOOL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PEH7JX5YY9;
 				INFOPLIST_FILE = LOOL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Window.LOOL;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loot.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
